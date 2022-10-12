@@ -1,0 +1,44 @@
+.menu-sidebar-items {
+    display: flex;
+}
+.menu-sidebar {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #e3e3e4;
+}
+.menu-sidebar-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    padding: 4.4px;
+    border-radius: 4px;
+    transition: background-color ease-in-out 200ms;
+    &.active {
+        color: var(--primary);
+
+        .icon {
+            display: none;
+        }
+        .active-icon {
+            display: block;
+        }
+    }
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-left: 22px;
+    font-family: 'ProximaNova', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    transform: translateY(-59%);
+}
+
+.active-icon {
+    display: none;
+}

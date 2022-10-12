@@ -1,0 +1,43 @@
+.wrapper {
+    border-top: 1px solid #e3e3e4;
+}
+
+.title {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 16px 0 16px;
+}
+.discover {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.icon {
+    margin-right: 6px;
+}
+.buttonmusic {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid rgba(22, 24, 35, 0.2);
+    border-radius: 12px;
+    display: flex;
+    margin-bottom: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 100%;
+    min-height: 24px;
+    padding: 3px 10px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out 0s;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+.content {
+    color: rgba(22, 24, 35, 0.5);
+}

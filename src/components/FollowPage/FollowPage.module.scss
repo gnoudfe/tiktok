@@ -1,0 +1,76 @@
+.wrapper {
+    margin-right: 16px;
+    margin-left: 372px;
+    max-width: 100%;
+    padding: 26px 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.follow {
+    padding: 20px 10px 0 10px;
+    overflow: hidden;
+    position: relative;
+    max-width: 246px;
+}
+
+.image {
+    width: 226px;
+    height: 302px;
+    object-fit: cover;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    max-width: 226px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .img-avatar {
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 15px;
+    }
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    .fullname {
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .nickname {
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 180px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+.btn-follow {
+    margin-top: 10px;
+    font-size: 1.7rem;
+    min-width: 160px;
+    max-width: 160px;
+}
